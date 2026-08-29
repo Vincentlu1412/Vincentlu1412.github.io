@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Vincent Lu - 个人主页 | 程序员 | 设计师" />
+    <meta name="description" content="Vincent Lu - AI Research & Developer | 复旦大学 | 嵌入式智能、计算机视觉、GPU系统、高性能计算、机器人、大语言模型" />
     <meta name="author" content="Vincent Lu" />
-    <meta name="keywords" content="Vincent Lu, 个人主页, 前端开发, 程序员, GitHub" />
-    <title>Vincent Lu | 个人主页</title>
+    <meta name="keywords" content="Vincent Lu, AI Research, Computer Vision, GPU, HPC, Robotics, LLM, 复旦大学, Machine Learning" />
+    <title>Vincent Lu | AI Research & Developer</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
@@ -18,7 +18,7 @@
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <!-- Core theme CSS-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
@@ -70,7 +70,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -92,19 +92,26 @@
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
+        /* Neural network background pattern */
+        .neural-bg {
+            background-image: 
+                radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(147, 51, 234, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 30%);
+        }
         /* Smooth scrollbar */
         ::-webkit-scrollbar {
             width: 10px;
         }
         ::-webkit-scrollbar-track {
-            background: #f1f1f1;
+            background: #0f172a;
         }
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
             border-radius: 5px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
         }
     </style>
 </head>
@@ -128,22 +135,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home"><i class="bi bi-house-fill me-1"></i> 首页</a>
+                        <a class="nav-link me-lg-3" href="#home"><i class="bi bi-house-fill me-1"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#about"><i class="bi bi-person-fill me-1"></i> 关于</a>
+                        <a class="nav-link me-lg-3" href="#about"><i class="bi bi-person-fill me-1"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience"><i class="bi bi-briefcase-fill me-1"></i> 经历</a>
+                        <a class="nav-link me-lg-3" href="#research"><i class="bi bi-mortarboard-fill me-1"></i> Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#skills"><i class="bi bi-stars me-1"></i> 技能</a>
+                        <a class="nav-link me-lg-3" href="#projects"><i class="bi bi-code-slash me-1"></i> Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards"><i class="bi bi-award-fill me-1"></i> 获奖</a>
+                        <a class="nav-link me-lg-3" href="#publications"><i class="bi bi-file-text-fill me-1"></i> Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#contact"><i class="bi bi-envelope-fill me-1"></i> 联系</a>
+                        <a class="nav-link me-lg-3" href="#contact"><i class="bi bi-envelope-fill me-1"></i> Contact</a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -155,31 +162,31 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Particles -->
-    <section class="hero-section position-relative overflow-hidden" id="hero">
+    <!-- Hero Section with AI-themed background -->
+    <section class="hero-section position-relative overflow-hidden neural-bg" id="hero">
         <div id="particles-js" class="particles-container"></div>
         <div class="hero-content text-center text-white position-relative z-index-3">
             <div class="container px-5 py-5">
                 <div class="mb-4" data-aos="fade-down" data-aos-delay="100">
                     <span class="badge bg-white bg-opacity-20 text-white px-4 py-2 rounded-pill mb-4">
-                        <i class="bi bi-code-slash me-2"></i> Full Stack Developer
+                        <i class="bi bi-stars me-2"></i> AI Research & Developer
                     </span>
                 </div>
                 <h1 class="display-3 fw-bold mb-4" data-aos="fade-down" data-aos-delay="200">
                     Vincent Lu
                 </h1>
-                <div class="typing-container mb-4" data-aos="fade-down" data-aos-delay="300">
+                <p class="lead mb-4 opacity-90" data-aos="fade-down" data-aos-delay="300">
+                    Fudan University | Shanghai
+                </p>
+                <div class="typing-container mb-5" data-aos="fade-down" data-aos-delay="400">
                     <span class="text-gradient" id="typed-text"></span>
                 </div>
-                <p class="lead mb-5 opacity-90" data-aos="fade-down" data-aos-delay="400">
-                    热衷于创造优雅的代码和出色的用户体验
-                </p>
                 <div class="d-flex justify-content-center gap-3 mb-5" data-aos="fade-up" data-aos-delay="500">
-                    <a href="#contact" class="btn btn-light btn-lg px-4 py-3 rounded-pill shadow-lg">
-                        <i class="bi bi-chat-dots-fill me-2"></i> 联系我
+                    <a href="#research" class="btn btn-light btn-lg px-4 py-3 rounded-pill shadow-lg">
+                        <i class="bi bi-robot me-2"></i> My Research
                     </a>
-                    <a href="https://github.com/Vincentlu1412" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill" target="_blank">
-                        <i class="bi bi-github me-2"></i> 查看作品
+                    <a href="#projects" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill" target="_blank">
+                        <i class="bi bi-github me-2"></i> GitHub Projects
                     </a>
                 </div>
                 <div class="social-links justify-content-center" data-aos="fade-up" data-aos-delay="600">
@@ -187,7 +194,7 @@
                         <i class="bi bi-github fs-4"></i>
                         <span class="visually-hidden">GitHub</span>
                     </a>
-                    <a href="mailto:vincentlu1412@gmail.com" class="social-link text-white me-3" target="_blank">
+                    <a href="mailto:vincentlu@fudan.edu.cn" class="social-link text-white me-3" target="_blank">
                         <i class="bi bi-envelope fs-4"></i>
                         <span class="visually-hidden">Email</span>
                     </a>
@@ -195,12 +202,16 @@
                         <i class="bi bi-linkedin fs-4"></i>
                         <span class="visually-hidden">LinkedIn</span>
                     </a>
+                    <a href="https://scholar.google.com/" class="social-link text-white me-3" target="_blank">
+                        <i class="bi bi-google fs-4"></i>
+                        <span class="visually-hidden">Google Scholar</span>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x pb-5" data-aos="fade-up" data-aos-delay="800">
             <a href="#home" class="text-white text-decoration-none">
-                <span class="scroll-text">向下滚动</span>
+                <span class="scroll-text">Scroll Down</span>
                 <i class="bi bi-chevron-down animate-bounce"></i>
             </a>
         </div>
@@ -211,6 +222,7 @@
         <div class="container px-5">
             <header class="text-center mb-5" data-aos="fade-down">
                 <h2 id="home-subtitle" class="text-gradient mb-3"></h2>
+                <p class="text-muted">复旦大学 | AI研究与开发</p>
                 <div class="section-divider mx-auto"></div>
             </header>
             <div class="row align-items-center">
@@ -223,19 +235,23 @@
                     </div>
                     <div class="card border-0 shadow-lg h-100">
                         <div class="card-body">
-                            <h4 class="card-title text-gradient mb-4">个人信息</h4>
+                            <h4 class="card-title text-gradient mb-4">Personal Info</h4>
                             <div class="d-grid gap-3">
                                 <div class="info-item">
+                                    <i class="bi bi-building text-primary me-3"></i>
+                                    <span id="affiliation">Fudan University</span>
+                                </div>
+                                <div class="info-item">
                                     <i class="bi bi-geo-alt-fill text-primary me-3"></i>
-                                    <span id="location">中国 · 上海</span>
+                                    <span id="location">Shanghai, China</span>
                                 </div>
                                 <div class="info-item">
-                                    <i class="bi bi-calendar-fill text-primary me-3"></i>
-                                    <span id="birthday">1998年12月</span>
+                                    <i class="bi bi-robot text-primary me-3"></i>
+                                    <span id="specialty">AI Research & Developer</span>
                                 </div>
                                 <div class="info-item">
-                                    <i class="bi bi-code-slash text-primary me-3"></i>
-                                    <span id="specialty">全栈开发</span>
+                                    <i class="bi bi-github text-primary me-3"></i>
+                                    <span id="github-stats">6 Public Repos | 5 Followers</span>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +265,7 @@
     <section class="bg-light py-5" id="about">
         <div class="container px-5">
             <header class="text-center mb-5" data-aos="fade-down">
-                <h2 class="text-gradient mb-3"><i class="bi bi-person-fill me-2"></i> 关于我</h2>
+                <h2 class="text-gradient mb-3"><i class="bi bi-person-fill me-2"></i> About Me</h2>
                 <div class="section-divider mx-auto"></div>
             </header>
             <div class="row g-4">
@@ -257,11 +273,11 @@
                     <div class="card border-0 shadow-lg h-100">
                         <div class="card-body text-center p-4">
                             <div class="mb-3">
-                                <i class="bi bi-heart-fill text-danger fs-1"></i>
+                                <i class="bi bi-cpu-chip text-primary fs-1"></i>
                             </div>
-                            <h4 class="card-title mb-3">热情</h4>
+                            <h4 class="card-title mb-3">Research Focus</h4>
                             <p class="card-text text-muted">
-                                我热爱编程和设计，享受解决问题的过程。每一个项目都是我的热情结晶。
+                                Embodied Intelligence, Computer Vision, GPU System, HPC & Performance Tools
                             </p>
                         </div>
                     </div>
@@ -270,11 +286,11 @@
                     <div class="card border-0 shadow-lg h-100">
                         <div class="card-body text-center p-4">
                             <div class="mb-3">
-                                <i class="bi bi-lightbulb-fill text-warning fs-1"></i>
+                                <i class="bi bi-robot text-success fs-1"></i>
                             </div>
-                            <h4 class="card-title mb-3">创新</h4>
+                            <h4 class="card-title mb-3">AI Expertise</h4>
                             <p class="card-text text-muted">
-                                我追求创新的解决方案，不断学习新技术，保持对前沿技术的敏感度。
+                                Robotics, LLM Deployment, Hardware Verification, Machine Learning
                             </p>
                         </div>
                     </div>
@@ -283,12 +299,83 @@
                     <div class="card border-0 shadow-lg h-100">
                         <div class="card-body text-center p-4">
                             <div class="mb-3">
-                                <i class="bi bi-rocket-fill text-success fs-1"></i>
+                                <i class="bi bi-lightning-charge-fill text-warning fs-1"></i>
                             </div>
-                            <h4 class="card-title mb-3">追求卓越</h4>
+                            <h4 class="card-title mb-3">Technical Skills</h4>
                             <p class="card-text text-muted">
-                                我对代码质量和用户体验有很高的要求，追求每一个细节的完美。
+                                Python, C++, CUDA, PyTorch, TensorFlow, OpenCV
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas Section -->
+    <section class="bg-white py-5" id="research">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 id="research-subtitle" class="text-gradient mb-3"></h2>
+                <div class="section-divider mx-auto"></div>
+            </header>
+            <div class="main-body" id="research-md"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="bg-light py-5" id="projects">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 class="text-gradient mb-3"><i class="bi bi-code-slash me-2"></i> Projects</h2>
+                <div class="section-divider mx-auto"></div>
+            </header>
+            <div class="row g-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-github text-primary fs-3 me-3"></i>
+                                <h4 class="card-title mb-0">GitHub Repositories</h4>
+                            </div>
+                            <p class="card-text text-muted mb-4">
+                                Explore my 6 public repositories on GitHub, covering AI, Computer Vision, and more.
+                            </p>
+                            <a href="https://github.com/Vincentlu1412" class="btn btn-gradient btn-sm" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-2"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-robot text-success fs-3 me-3"></i>
+                                <h4 class="card-title mb-0">AI Research</h4>
+                            </div>
+                            <p class="card-text text-muted mb-4">
+                                My research projects in Embodied Intelligence, Computer Vision, and Machine Learning.
+                            </p>
+                            <a href="#research" class="btn btn-gradient btn-sm">
+                                <i class="bi bi-file-earmark-text me-2"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-lightning-charge-fill text-warning fs-3 me-3"></i>
+                                <h4 class="card-title mb-0">Technical Tools</h4>
+                            </div>
+                            <p class="card-text text-muted mb-4">
+                                Performance optimization tools for GPU systems and high-performance computing.
+                            </p>
+                            <a href="#about" class="btn btn-gradient btn-sm">
+                                <i class="bi bi-gear me-2"></i> View Skills
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -307,75 +394,14 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="bg-light py-5" id="skills">
+    <!-- Publications Section -->
+    <section class="bg-light py-5" id="publications">
         <div class="container px-5">
             <header class="text-center mb-5" data-aos="fade-down">
-                <h2 class="text-gradient mb-3"><i class="bi bi-stars me-2"></i> 技能</h2>
+                <h2 id="publications-subtitle" class="text-gradient mb-3"></h2>
                 <div class="section-divider mx-auto"></div>
             </header>
-            <div class="row g-4">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <h4 class="mb-4 text-gradient">编程语言</h4>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>JavaScript/TypeScript</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>Python</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>Java</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-                    <h4 class="mb-4 text-gradient">框架与工具</h4>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>React/Vue</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>Node.js</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-3">
-                        <div class="d-flex justify-content-between mb-2">
-                            <span>Docker/Kubernetes</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="progress" style="height: 8px; border-radius: 10px;">
-                            <div class="progress-bar bg-gradient-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="main-body" id="publications-md"></div>
         </div>
     </section>
 
@@ -390,57 +416,39 @@
         </div>
     </section>
 
-    <!-- Publications Section -->
-    <section class="bg-light py-5" id="publications">
-        <div class="container px-5">
-            <header class="text-center mb-5" data-aos="fade-down">
-                <h2 id="publications-subtitle" class="text-gradient mb-3"></h2>
-                <div class="section-divider mx-auto"></div>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section class="bg-gradient-contact py-5" id="contact">
         <div class="container px-5">
             <header class="text-center mb-5" data-aos="fade-down">
-                <h2 class="text-white mb-3"><i class="bi bi-envelope-fill me-2"></i> 联系我</h2>
+                <h2 class="text-white mb-3"><i class="bi bi-envelope-fill me-2"></i> Contact</h2>
                 <div class="section-divider bg-white mx-auto"></div>
             </header>
             <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-8">
                     <div class="card border-0 shadow-lg">
                         <div class="card-body p-5">
-                            <form id="contactForm" class="needs-validation" novalidate>
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">姓名</label>
-                                        <input type="text" class="form-control" id="name" required>
-                                        <div class="invalid-feedback">请输入您的姓名</div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="email" class="form-label">邮箱</label>
-                                        <input type="email" class="form-control" id="email" required>
-                                        <div class="invalid-feedback">请输入有效的邮箱地址</div>
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="subject" class="form-label">主题</label>
-                                        <input type="text" class="form-control" id="subject" required>
-                                        <div class="invalid-feedback">请输入邮件主题</div>
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="message" class="form-label">消息</label>
-                                        <textarea class="form-control" id="message" rows="5" required></textarea>
-                                        <div class="invalid-feedback">请输入您的消息</div>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <button type="submit" class="btn btn-gradient btn-lg px-5 py-3 rounded-pill">
-                                            <i class="bi bi-send-fill me-2"></i> 发送消息
-                                        </button>
+                            <div class="text-center mb-4">
+                                <h4 class="text-gradient mb-3">Get In Touch</h4>
+                                <p class="text-muted">
+                                    Feel free to reach out for collaborations, research discussions, or just to connect!
+                                </p>
+                            </div>
+                            <div class="row g-4 text-center">
+                                <div class="col-md-6">
+                                    <div class="contact-item p-4 bg-light rounded-4">
+                                        <i class="bi bi-envelope-fill text-primary fs-2 mb-3"></i>
+                                        <h5>Email</h5>
+                                        <p class="mb-0">vincentlu@fudan.edu.cn</p>
                                     </div>
                                 </div>
-                            </form>
+                                <div class="col-md-6">
+                                    <div class="contact-item p-4 bg-light rounded-4">
+                                        <i class="bi bi-github text-dark fs-2 mb-3"></i>
+                                        <h5>GitHub</h5>
+                                        <p class="mb-0"><a href="https://github.com/Vincentlu1412" target="_blank" class="text-decoration-none">github.com/Vincentlu1412</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -457,11 +465,14 @@
                     <a href="https://github.com/Vincentlu1412" class="social-link text-white-50 me-3" target="_blank">
                         <i class="bi bi-github fs-5"></i>
                     </a>
-                    <a href="mailto:vincentlu1412@gmail.com" class="social-link text-white-50 me-3" target="_blank">
+                    <a href="mailto:vincentlu@fudan.edu.cn" class="social-link text-white-50 me-3" target="_blank">
                         <i class="bi bi-envelope fs-5"></i>
                     </a>
                     <a href="https://www.linkedin.com/" class="social-link text-white-50 me-3" target="_blank">
                         <i class="bi bi-linkedin fs-5"></i>
+                    </a>
+                    <a href="https://scholar.google.com/" class="social-link text-white-50 me-3" target="_blank">
+                        <i class="bi bi-google fs-5"></i>
                     </a>
                 </div>
                 <div class="mb-2">
@@ -499,7 +510,13 @@
         // Typing animation
         document.addEventListener('DOMContentLoaded', function() {
             var typed = new Typed('#typed-text', {
-                strings: ['Full Stack Developer', '前端工程师', '后端工程师', 'UI/UX 设计师'],
+                strings: [
+                    'AI Research & Developer',
+                    'Embodied Intelligence',
+                    'Computer Vision',
+                    'GPU System & HPC',
+                    'Robotics & LLM Deployment'
+                ],
                 typeSpeed: 80,
                 backSpeed: 40,
                 loop: true,
@@ -507,7 +524,7 @@
             });
         });
 
-        // Particles.js configuration
+        // Particles.js configuration - AI/Neural Network theme
         particlesJS('particles-js', {
             particles: {
                 number: {
@@ -518,7 +535,7 @@
                     }
                 },
                 color: {
-                    value: "#ffffff"
+                    value: ["#3b82f6", "#8b5cf6", "#06b6d4", "#10b981"]
                 },
                 shape: {
                     type: "circle",
@@ -529,22 +546,26 @@
                 },
                 opacity: {
                     value: 0.5,
-                    random: false,
+                    random: true,
                     anim: {
-                        enable: false
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1
                     }
                 },
                 size: {
                     value: 3,
                     random: true,
                     anim: {
-                        enable: false
+                        enable: true,
+                        speed: 40,
+                        size_min: 0.1
                     }
                 },
                 line_linked: {
                     enable: true,
                     distance: 150,
-                    color: "#ffffff",
+                    color: "#3b82f6",
                     opacity: 0.4,
                     width: 1
                 },
@@ -552,7 +573,7 @@
                     enable: true,
                     speed: 2,
                     direction: "none",
-                    random: false,
+                    random: true,
                     straight: false,
                     out_mode: "out",
                     bounce: false
@@ -590,30 +611,18 @@
             });
         });
 
-        // Form validation
-        (function () {
-            'use strict';
-            const forms = document.querySelectorAll('.needs-validation');
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', function (event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        })();
-
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
+                    const navHeight = document.getElementById('mainNav').offsetHeight;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
                     });
                 }
             });

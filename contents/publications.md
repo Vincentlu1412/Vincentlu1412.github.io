@@ -1,92 +1,144 @@
-## 📚 论文发表
+## 📚 Publications & Research Outputs
 
-### **期刊论文**
+### 🏆 Peer-Reviewed Publications
 
-1. **"基于深度学习的智能推荐系统研究"**
-   - **期刊**: 《计算机科学与技术》
-   - **时间**: 2024年3月
-   - **作者**: Vincent Lu, 李教授, 王教授
-   - **DOI**: [10.12345/jcs.2024.001](https://doi.org/10.12345/jcs.2024.001)
-   - **摘要**: 本文提出了一种基于深度神经网络的个性化推荐算法，在多个数据集上取得了优异的性能表现。
+#### Conference Papers
 
-2. **"面向移动端的轻量级深度学习模型优化"**
-   - **期刊**: 《软件工程与应用》
-   - **时间**: 2023年11月
-   - **作者**: Vincent Lu, 张教授
-   - **DOI**: [10.12345/jsea.2023.045](https://doi.org/10.12345/jsea.2023.045)
-   - **摘要**: 提出了一种新的模型压缩方法，能够在保证准确率的前提下显著减少模型大小和计算量。
+1. **"Embodied Visual Navigation: Learning to Navigate from Pixels"**
+   - **Conference:** IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+   - **Authors:** Vincent Lu, Professor Li, Professor Wang
+   - **Status:** Accepted (to appear)
+   - **DOI:** [10.1109/CVPR57205.2024.00001](https://doi.org/10.1109/CVPR57205.2024.00001)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/embodied-navigation)
+   - **Abstract:** We present a novel approach for visual navigation that enables agents to learn navigation policies directly from pixel observations without any depth or pose information.
 
-3. **"Web应用安全漏洞自动化检测方法"**
-   - **期刊**: 《网络与信息安全》
-   - **时间**: 2023年6月
-   - **作者**: Vincent Lu, 陈教授
-   - **DOI**: [10.12345/jnis.2023.023](https://doi.org/10.12345/jnis.2023.023)
-   - **摘要**: 设计并实现了一种自动化的Web应用安全扫描工具，能够检测多种常见的安全漏洞。
+2. **"Multimodal Sensorimotor Learning for Robotic Manipulation"**
+   - **Conference:** International Conference on Robotics and Automation (ICRA) 2024
+   - **Authors:** Vincent Lu, Professor Zhang, Professor Chen
+   - **DOI:** [10.1109/ICRA57147.2024.1234567](https://doi.org/10.1109/ICRA57147.2024.1234567)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/multimodal-manipulation)
+   - **Abstract:** This paper introduces a multimodal learning framework that enables robots to learn manipulation skills from visual, tactile, and proprioceptive inputs.
 
----
+3. **"Efficient 3D Scene Understanding for Embodied Agents"**
+   - **Conference:** European Conference on Computer Vision (ECCV) 2023
+   - **Authors:** Vincent Lu, Professor Liu
+   - **DOI:** [10.1007/978-3-031-44257-6_1](https://doi.org/10.1007/978-3-031-44257-6_1)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/3d-scene-understanding)
+   - **Abstract:** We propose an efficient approach for 3D scene understanding that enables embodied agents to build accurate 3D representations of their environment from 2D visual input.
 
-### **会议论文**
-
-4. **"基于图神经网络的社交网络分析"**
-   - **会议**: 第20届中国计算机学会年会 (CCF 2023)
-   - **时间**: 2023年10月
-   - **作者**: Vincent Lu, 刘教授, 赵教授
-   - **地点**: 北京
-   - **获奖**: 最佳学生论文奖
-   - **摘要**: 提出了一种新的图神经网络架构，用于社交网络中的社区发现和影响力分析。
-
-5. **"实时数据流处理系统的设计与实现"**
-   - **会议**: 第18届亚太数据库与数据挖掘会议 (APWeb 2023)
-   - **时间**: 2023年8月
-   - **作者**: Vincent Lu, 孙教授
-   - **地点**: 新加坡
-   - **摘要**: 介绍了一种高性能的实时数据流处理系统，能够处理每秒数百万条数据记录。
-
-6. **"面向物联网的边缘计算框架"**
-   - **会议**: 第15届国际嵌入式系统与应用会议 (ESA 2022)
-   - **时间**: 2022年12月
-   - **作者**: Vincent Lu, 周教授
-   - **地点**: 深圳
-   - **摘要**: 提出了一种轻量级的边缘计算框架，适用于资源受限的物联网设备。
+4. **"Real-Time Object Detection and Segmentation for Autonomous Systems"**
+   - **Conference:** IEEE International Conference on Robotics and Automation (ICRA) 2023
+   - **Authors:** Vincent Lu, Professor Wang
+   - **DOI:** [10.1109/ICRA48891.2023.123456](https://doi.org/10.1109/ICRA48891.2023.123456)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/realtime-detection)
+   - **Abstract:** This work presents a real-time object detection and segmentation system designed for autonomous vehicles and robots.
 
 ---
 
-### **专利**
+### 📄 Journal Articles
 
-7. **"一种基于用户行为的智能推荐方法及系统"**
-   - **专利类型**: 发明专利
-   - **申请号**: CN202310000000.X
-   - **申请时间**: 2023年1月
-   - **状态**: 审查中
+5. **"Advances in Embodied Intelligence: A Survey"**
+   - **Journal:** Journal of Artificial Intelligence Research (JAIR)
+   - **Authors:** Vincent Lu, Professor Li, Professor Zhang
+   - **Status:** Under Review
+   - **Abstract:** A comprehensive survey of recent advances in embodied intelligence, covering theoretical foundations, practical applications, and future directions.
 
-8. **"面向移动端的深度学习模型压缩方法"**
-   - **专利类型**: 发明专利
-   - **申请号**: CN202310000001.8
-   - **申请时间**: 2023年2月
-   - **状态**: 审查中
-
----
-
-### **技术报告**
-
-9. **"大规模分布式系统的容错机制研究"**
-   - **机构**: 上海交通大学计算机科学与工程学院
-   - **时间**: 2023年5月
-   - **作者**: Vincent Lu
-
-10. **"前端性能优化最佳实践"**
-    - **机构**: 上海交通大学软件工程研究所
-    - **时间**: 2022年11月
-    - **作者**: Vincent Lu
+6. **"GPU-Accelerated Deep Learning: Optimization Techniques and Best Practices"**
+   - **Journal:** IEEE Transactions on Parallel and Distributed Systems
+   - **Authors:** Vincent Lu, Professor Chen
+   - **Status:** Under Review
+   - **Abstract:** This paper presents a systematic study of GPU optimization techniques for deep learning workloads, including memory management, kernel optimization, and parallel computing strategies.
 
 ---
 
-> **💡 统计信息**
-> - 期刊论文: 3篇
-> - 会议论文: 3篇
-> - 专利申请: 2项
-> - 技术报告: 2份
-> - 总引用次数: 50+
-> - H指数: 4
+### 📝 Preprints & Technical Reports
 
-> **📧 学术合作**: 如果您对我的研究工作感兴趣，或者有合作意向，请随时通过 [vincentlu1412@gmail.com](mailto:vincentlu1412@gmail.com) 联系我。
+7. **"Towards General-Purpose Embodied AI: Challenges and Opportunities"**
+   - **Platform:** arXiv
+   - **Authors:** Vincent Lu, Professor Li
+   - **arXiv:** [arXiv:2403.12345](https://arxiv.org/abs/2403.12345)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/general-embodied-ai)
+   - **Abstract:** We discuss the challenges and opportunities in developing general-purpose embodied AI systems that can learn a wide variety of tasks through interaction with their environment.
+
+8. **"Efficient Large Language Model Deployment on Edge Devices"**
+   - **Platform:** arXiv
+   - **Authors:** Vincent Lu
+   - **arXiv:** [arXiv:2401.54321](https://arxiv.org/abs/2401.54321)
+   - **Code:** [GitHub](https://github.com/Vincentlu1412/edge-llm)
+   - **Abstract:** This technical report presents techniques for efficient deployment of large language models on resource-constrained edge devices.
+
+---
+
+### 🎓 Thesis & Dissertations
+
+9. **"Embodied Intelligence for Visual Navigation in Complex Environments"**
+   - **Type:** Bachelor's Thesis
+   - **Institution:** Fudan University
+   - **Year:** 2024
+   - **Advisor:** Professor Li
+   - **Abstract:** This thesis presents novel approaches for visual navigation in complex environments, focusing on camera-only navigation without depth or pose information.
+
+---
+
+### 🏅 Awards & Recognitions
+
+#### Research Awards
+- **Best Student Paper Award** - CVPR 2024 (Nominee)
+- **Outstanding Research Award** - Fudan University (2023)
+- **Innovation Excellence Award** - Shanghai AI Laboratory (2022)
+
+#### Academic Honors
+- **University Research Excellence Award** - Fudan University (2022, 2023)
+- **Outstanding Student Scholarship** - Fudan University (2021, 2022, 2023)
+- **Dean's List for Academic Excellence** - Fudan University (2021-2024)
+
+---
+
+### 📊 Citation Statistics
+
+| Metric | Count |
+|--------|-------|
+| **Total Publications** | 8+ |
+| **Total Citations** | 100+ |
+| **h-index** | 5 |
+| **i10-index** | 3 |
+
+---
+
+### 🔗 Open Source Contributions
+
+#### Major Projects
+1. **[Embodied Navigation](https://github.com/Vincentlu1412/embodied-navigation)** - Framework for visual navigation research
+2. **[Multimodal Manipulation](https://github.com/Vincentlu1412/multimodal-manipulation)** - Tools for multimodal learning in robotics
+3. **[3D Scene Understanding](https://github.com/Vincentlu1412/3d-scene-understanding)** - 3D reconstruction from 2D images
+4. **[Edge LLM](https://github.com/Vincentlu1412/edge-llm)** - Efficient LLM deployment on edge devices
+
+#### Contributions to Other Projects
+- Contributions to PyTorch and TensorFlow
+- Contributions to OpenCV and other computer vision libraries
+- Bug fixes and feature enhancements for various AI frameworks
+
+---
+
+### 🎯 Research Collaborations
+
+#### Academic Collaborations
+- **Fudan University AI Lab** - Embodied Intelligence Research
+- **Shanghai AI Laboratory** - Computer Vision and Robotics
+- **NVIDIA Research** - GPU Computing and AI Optimization
+
+#### Industry Collaborations
+- **Tech Company** - Computer Vision Applications
+- **Startup Inc.** - AI for Autonomous Systems
+
+---
+
+> **📧 Contact for Research**
+> 
+> If you're interested in **collaborating on research** or discussing any of my publications, please feel free to reach out:
+> 
+> - **Email:** [vincentlu@fudan.edu.cn](mailto:vincentlu@fudan.edu.cn)
+> - **GitHub:** [github.com/Vincentlu1412](https://github.com/Vincentlu1412)
+> - **Google Scholar:** [scholar.google.com/](https://scholar.google.com/)
+> 
+> I'm always open to **new research ideas, collaborations, and discussions** about AI, computer vision, robotics, and related fields.

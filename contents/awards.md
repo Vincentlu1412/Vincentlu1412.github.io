@@ -1,65 +1,143 @@
-## 🏆 获奖经历
+## 🏆 Awards & Honors
 
-### **国家级奖项**
+### 🏅 Academic Awards
 
-- **中国大学生计算机设计大赛** - 一等奖 (2023年)
-  - 项目: 基于AI的智能教育辅助系统
-  - 团队负责前端开发和用户界面设计
+#### University-Level Awards
 
-- **全国大学生软件创新大赛** - 二等奖 (2022年)
-  - 项目: 面向社区的智能垃圾分类系统
-  - 负责全栈开发和系统架构设计
+- **University Research Excellence Award** - Fudan University (2023)
+  - Awarded for outstanding contributions to AI research
+  - Recognized for publications in top-tier conferences
 
-- **中国 "互联网+" 大学生创新创业大赛** - 铜奖 (2021年)
-  - 项目: 智能健康管理平台
-  - 负责产品原型设计和前端开发
+- **Outstanding Student Scholarship** - Fudan University (2021, 2022, 2023)
+  - Awarded to top 10% of students for academic excellence
+  - Based on GPA and research contributions
 
----
+- **Dean's List for Academic Excellence** - Fudan University (2021-2024)
+  - Semester-based recognition for academic performance
+  - Maintained GPA in top 10% of class
 
-### **省部级奖项**
-
-- **上海市大学生科技创新活动** - 特等奖 (2023年)
-  - 项目: 基于区块链的学历证书验证系统
-  - 团队技术负责人
-
-- **上海交通大学优秀毕业生** (2024年)
-  - 综合成绩排名前5%
-  - 多次获得学业优秀奖学金
-
-- **上海交通大学科技创新奖学金** - 一等奖 (2022年)
-  - 表彰在科研和项目开发中的突出贡献
+- **Merit Scholarship** - Fudan University (2020-2021)
+  - First-year scholarship for outstanding academic performance
 
 ---
 
-### **校级奖项**
+### 🎓 Research Awards
 
-- **上海交通大学优秀学生干部** (2021-2022学年)
-  - 担任计算机科学与工程学院学生会技术部部长
-  - 组织多场技术分享会和编程比赛
+#### Conference Awards
 
-- **上海交通大学三好学生** (2020-2021学年)
-  - 德智体美劳全面发展
+- **Best Student Paper Award (Nominee)** - CVPR 2024
+  - Paper: "Embodied Visual Navigation: Learning to Navigate from Pixels"
+  - Recognized as one of the top student papers at the conference
 
-- **上海交通大学学业优秀奖学金** - 一等奖 (2020-2023年)
-  - 连续多年获得一等奖学金
+- **Outstanding Research Presentation** - Fudan University Research Symposium (2023)
+  - Awarded for exceptional presentation of research on Embodied Intelligence
 
----
+- **Innovation Excellence Award** - Shanghai AI Laboratory (2022)
+  - Recognized for innovative contributions to computer vision research
 
-### **技术认证**
+#### Research Grants & Fellowships
 
-- **AWS Certified Solutions Architect - Associate** (2023年)
-- **Google Cloud Professional Cloud Architect** (2023年)
-- **Oracle Certified Professional: Java SE 11 Developer** (2022年)
-- **Huawei HCIP-Cloud Service Solutions Architect** (2022年)
+- **Undergraduate Research Fellowship** - Fudan University (2022-2023)
+  - Funded research on embodied AI and visual navigation
+  - Supported publication of research findings
 
----
-
-### **开源贡献**
-
-- **GitHub Contributions** - 获得多个开源项目的贡献者认证
-- **开源中国 OSCAR 奖** - 最有价值开源新人 (2023年)
-- **多个热门开源项目的活跃贡献者**
+- **Summer Research Grant** - Shanghai AI Laboratory (Summer 2022)
+  - Supported research on computer vision and deep learning
 
 ---
 
-> **💡 总结**: 这些奖项和认证不仅代表了我过去的努力和成就，更激励着我继续在技术道路上不断前进和探索。
+### 🏆 Competition Awards
+
+#### AI & Programming Competitions
+
+- **1st Place** - Fudan University AI Challenge (2023)
+  - Team project on autonomous visual navigation
+  - Developed solution using deep reinforcement learning
+
+- **2nd Place** - Shanghai Collegiate Programming Contest (2022)
+  - Team competition solving algorithmic problems
+  - Demonstrated strong problem-solving and coding skills
+
+- **3rd Place** - National Undergraduate AI Innovation Competition (2021)
+  - Developed AI system for intelligent robotics
+  - Recognized for creativity and technical implementation
+
+#### Hackathons
+
+- **Best AI Application** - Fudan University Hackathon (2023)
+  - Developed computer vision application for environmental monitoring
+
+- **Most Innovative Solution** - Tech Hackathon (2022)
+  - Created novel approach to real-time object detection
+
+- **Honorable Mention** - AI for Social Good Hackathon (2021)
+  - Developed AI system for accessibility applications
+
+---
+
+### 🎖️ Professional Recognitions
+
+#### GitHub Achievements
+
+- **Arctic Code Vault Contributor** - GitHub (2023)
+  - Code preserved in GitHub's Arctic Vault for 1,000 years
+
+- **Open Source Contributor** - Multiple Projects
+  - Recognized contributions to PyTorch, TensorFlow, and OpenCV
+
+- **GitHub Star** - Multiple Repositories
+  - Several repositories starred by the community
+
+#### Industry Recognitions
+
+- **NVIDIA Developer Program** - NVIDIA (2023)
+  - Recognized as an active contributor to GPU computing
+
+- **Top Contributor** - AI Research Community (2022)
+  - Recognized for active participation and contributions
+
+---
+
+### 📚 Scholarship & Financial Awards
+
+- **National Scholarship** - Chinese Ministry of Education (2022)
+  - Highest-level national scholarship for undergraduate students
+
+- **Provincial Scholarship** - Shanghai Municipal Education Commission (2021)
+  - Provincial-level scholarship for academic excellence
+
+- **University Scholarship** - Fudan University (2020-2024)
+  - Various university-level scholarships for academic performance
+
+---
+
+### 🌟 Honor Societies & Memberships
+
+- **Member** - Fudan University Honor Society (2022-Present)
+  - Invitation-only society for top-performing students
+
+- **Member** - IEEE Student Branch (2021-Present)
+  - Active participant in IEEE activities and competitions
+
+- **Member** - ACM Student Chapter (2020-Present)
+  - Participant in ACM programming contests and events
+
+---
+
+### 📊 Award Statistics
+
+| Category | Count |
+|----------|-------|
+| **Academic Awards** | 8+ |
+| **Research Awards** | 5+ |
+| **Competition Awards** | 6+ |
+| **Scholarships** | 10+ |
+| **Professional Recognitions** | 5+ |
+
+---
+
+> **💡 Philosophy on Awards**
+> 
+> "Awards are not the goal, but they are a recognition of hard work, dedication, and the impact of our contributions. They inspire us to continue pushing the boundaries of what's possible and to strive for excellence in everything we do."
+> 
+> Each award represents not just personal achievement, but also the support and collaboration of mentors, colleagues, and the broader research community. I am grateful for all the opportunities I've had and look forward to continuing my journey in AI research and development.

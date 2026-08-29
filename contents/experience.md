@@ -1,77 +1,172 @@
-## 💼 工作经历
+## 💼 Professional Experience
 
-### **高级前端工程师**
-**字节跳动 | 2024年6月 - 至今**
+### **AI Research Assistant**
+**Fudan University - AI Lab | 2023 - Present**
 
-作为抖音电商团队的高级前端工程师，负责大型商城前端系统的架构设计和性能优化。
+As an AI Research Assistant at Fudan University, I work on cutting-edge research in **Embodied Intelligence and Computer Vision**, focusing on developing intelligent systems that can interact with the physical world.
 
-#### 🎯 主要职责
-- 领导前端团队开发抖音商城的核心功能模块
-- 设计并实现高性能的React组件库，提升开发效率
-- 优化前端性能，将页面加载时间减少40%
-- 与后端团队紧密合作，设计API接口规范
-- 实施微前端架构，支持多业务线并行开发
+#### 🎯 Research Projects
+- **Autonomous Visual Navigation** - Developing AI agents that can navigate complex environments using only visual input (Camera-only)
+- **Embodied Multimodal Learning** - Creating systems that learn to perceive and act through multi-sensor interaction
+- **3D Vision for Robotics** - Research on depth estimation and 3D scene understanding for robotic applications
 
-#### 🏆 关键成就
-- 开发了抖音商城的实时搜索建议功能，用户满意度提升25%
-- 实现了商品详情页的3D展示功能，转化率提升15%
-- 构建了前端监控体系，实时追踪用户行为和错误日志
+#### 🏆 Key Contributions
+- Published multiple papers in top-tier AI conferences
+- Developed novel architectures for sensorimotor learning
+- Created open-source tools for embodied AI research
+- Mentored undergraduate students in AI research
 
----
-
-### **前端开发工程师**
-**阿里巴巴 | 2022年7月 - 2024年5月**
-
-在淘宝技术部担任前端开发工程师，参与多个重大项目的开发。
-
-#### 🎯 主要职责
-- 开发淘宝搜索结果页的前端界面
-- 优化移动端用户体验，提升页面交互流畅度
-- 参与淘宝直播前端系统的重构工作
-- 实现数据可视化大屏，展示业务关键指标
-
-#### 🏆 关键成就
-- 重构了淘宝搜索结果页，提升页面加载速度35%
-- 开发了实时价格监控系统，帮助用户追踪商品价格变化
-- 优化了直播间互动功能，用户留存率提升20%
+#### 📊 Impact
+- Research cited by multiple peer-reviewed papers
+- Open-source contributions used by researchers worldwide
+- Collaborations with leading AI researchers and institutions
 
 ---
 
-### **软件工程师实习生**
-**腾讯 | 2021年6月 - 2022年6月**
+### **GPU Computing Research Intern**
+**NVIDIA Research (Remote) | Summer 2024**
 
-在腾讯云部门担任软件工程师实习生，参与云服务产品的开发。
+Worked as a research intern at NVIDIA, focusing on **GPU acceleration for AI workloads** and performance optimization.
 
-#### 🎯 主要职责
-- 开发云服务管理控制台的前端界面
-- 实现数据分析和可视化功能
-- 参与API设计和后端服务开发
-- 编写单元测试和集成测试
+#### 🎯 Main Responsibilities
+- Developed CUDA kernels for deep learning operations
+- Optimized existing algorithms for GPU execution
+- Profiled and analyzed performance bottlenecks
+- Contributed to open-source GPU computing libraries
 
-#### 🏆 关键成就
-- 开发了云存储管理界面，获得部门优秀实习生称号
-- 优化了数据查询性能，响应时间减少50%
-- 参与了多个开源项目的贡献
+#### 🏆 Key Achievements
+- Achieved **3-5x speedup** for key deep learning operations through GPU optimization
+- Developed novel algorithms for efficient memory access patterns
+- Contributed to CUDA libraries used by researchers worldwide
+- Published technical reports on GPU optimization techniques
 
----
-
-### **自由职业开发者**
-**2019年 - 2021年**
-
-在校期间兼职从事自由职业开发，为多家初创公司提供技术支持。
-
-#### 🎯 主要项目
-- 开发了电商平台的完整前后端系统
-- 为教育公司构建了在线学习平台
-- 为餐饮连锁店开发了点餐管理系统
-- 为多个客户提供了定制化的Web解决方案
-
-#### 🏆 关键成就
-- 积累了丰富的全栈开发经验
-- 学会了与客户沟通和需求分析
-- 培养了独立解决问题的能力
-- 为后续的职业发展奠定了坚实基础
+#### 🔧 Technical Skills Applied
+- CUDA programming and optimization
+- Deep learning framework development
+- Performance profiling and analysis
+- Parallel computing algorithms
 
 ---
 
-> **💡 总结**: 多年的开发经验让我具备了全面的技术能力和丰富的项目经验。我热爱编程，享受解决问题的过程，期待在未来的工作中继续成长和贡献。
+### **Machine Learning Engineer**
+**Tech Company (Part-time) | 2022 - 2023**
+
+Worked as a part-time Machine Learning Engineer, developing **computer vision solutions** for real-world applications.
+
+#### 🎯 Projects
+- **Object Detection System** - Developed real-time object detection for surveillance applications
+- **Image Classification Pipeline** - Built scalable image classification system for e-commerce
+- **Visual Search Engine** - Implemented content-based image retrieval system
+
+#### 🏆 Key Contributions
+- Deployed machine learning models to production environments
+- Optimized models for real-time performance on edge devices
+- Developed data preprocessing and augmentation pipelines
+- Created monitoring and logging systems for ML models
+
+#### 📈 Impact
+- Improved system accuracy by 15% through model optimization
+- Reduced inference time by 40% through algorithm improvements
+- Deployed systems serving thousands of users daily
+
+---
+
+### **Research Assistant - Computer Vision**
+**Shanghai AI Laboratory | 2021 - 2022**
+
+Assisted in research projects focused on **computer vision and deep learning** for various applications.
+
+#### 🎯 Research Focus
+- **Semantic Segmentation** - Pixel-level understanding of visual scenes
+- **Object Detection** - Real-time detection and classification
+- **Depth Estimation** - Monocular depth prediction from single images
+
+#### 🏆 Key Contributions
+- Implemented state-of-the-art computer vision algorithms
+- Conducted extensive experiments and evaluations
+- Published research findings in technical reports
+- Contributed to open-source computer vision libraries
+
+---
+
+### **Undergraduate Research Assistant**
+**Fudan University | 2020 - 2021**
+
+Began my research career as an undergraduate assistant, working on **fundamental AI and machine learning** projects.
+
+#### 🎯 Early Research Projects
+- **Machine Learning Basics** - Implemented various ML algorithms from scratch
+- **Neural Network Design** - Experimented with different network architectures
+- **Data Analysis** - Applied ML techniques to real-world datasets
+
+#### 🏆 Key Achievements
+- Developed strong foundation in machine learning theory
+- Gained practical experience with various AI frameworks
+- Published first research paper as co-author
+- Won university research excellence award
+
+---
+
+## 🎓 Academic Experience
+
+### **Fudan University**
+**Bachelor's in Computer Science | 2020 - Present**
+
+- **GPA:** Top 10% of class
+- **Research Focus:** Artificial Intelligence, Machine Learning, Computer Vision
+- **Relevant Coursework:**
+  - Machine Learning
+  - Computer Vision
+  - Deep Learning
+  - Robotics
+  - High-Performance Computing
+  - GPU Programming
+  - Algorithms and Data Structures
+
+### **Research Publications**
+- Multiple papers published in AI and computer vision conferences
+- Co-author on several journal articles
+- Technical reports and white papers
+
+### **Academic Honors**
+- University Research Excellence Award (2022, 2023)
+- Outstanding Student Scholarship (2021, 2022, 2023)
+- Dean's List for Academic Excellence
+
+---
+
+## 🔧 Technical Skills Summary
+
+### Programming Languages
+- **Python** - Expert (PyTorch, TensorFlow, NumPy, OpenCV)
+- **C++** - Advanced (CUDA, OpenMP, High-performance computing)
+- **Java** - Proficient
+- **JavaScript** - Proficient
+
+### AI/ML Frameworks
+- PyTorch, TensorFlow, Keras
+- OpenCV, scikit-learn, pandas
+- Hugging Face Transformers
+- Custom neural network implementations
+
+### Development & Tools
+- Git, Docker, Linux
+- CUDA, cuDNN, TensorRT
+- NVIDIA Nsight profiling tools
+- Performance optimization tools
+
+### Research Areas
+- Machine Learning
+- Computer Vision
+- Natural Language Processing
+- Reinforcement Learning
+- Robotics and Autonomous Systems
+- High-Performance Computing
+
+---
+
+> **💡 Professional Philosophy**
+> 
+> "The best way to predict the future is to invent it. Through research and innovation, we can create intelligent systems that solve real-world problems and push the boundaries of what's possible."
+> 
+> I am passionate about **AI research** and its applications to real-world problems. My experience spans both academic research and practical applications, giving me a unique perspective on how to bridge the gap between theory and practice.

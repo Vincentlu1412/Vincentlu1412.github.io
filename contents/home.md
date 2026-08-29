@@ -1,48 +1,80 @@
 [![GitHub](https://img.shields.io/badge/VincentLu-GitHub-181717?logo=github&style=flat-square)](https://github.com/Vincentlu1412)
+[![Email](https://img.shields.io/badge/vincentlu@fudan.edu.cn-Email-D14836?logo=gmail&style=flat-square)](mailto:vincentlu@fudan.edu.cn)
+[![Location](https://img.shields.io/badge/Shanghai-China-1e293b?style=flat-square)](https://github.com/Vincentlu1412)
 
-## 关于我
+## 👋 About Vincent Lu
 
-我是 Vincent Lu，一名热爱编程和设计的全栈开发工程师。我专注于创建优雅、高效的数字体验，拥有多年的前端和后端开发经验。
+I am **Vincent Lu**, an **AI Research & Developer** based in Shanghai, China. Currently affiliated with **Fudan University**, I specialize in cutting-edge artificial intelligence technologies with a strong focus on **Embodied Intelligence, Computer Vision, GPU Systems, and High-Performance Computing (HPC)**.
 
-### 📧 联系方式
+### 🎯 Research Interests
 
-- **邮箱**: [vincentlu1412@gmail.com](mailto:vincentlu1412@gmail.com)
-- **GitHub**: [github.com/Vincentlu1412](https://github.com/Vincentlu1412)
-- **地址**: 中国 · 上海
+My research spans across multiple domains of AI and computer science:
 
-### 🎓 教育背景
+- **🤖 Embodied Intelligence** - Intelligent systems that interact with and learn from the physical world
+- **👁️ Computer Vision** - Image recognition, object detection, and visual understanding
+- **⚡ GPU System & HPC** - High-performance computing, GPU acceleration, and performance optimization
+- **🤖 Robotics** - Autonomous systems, robot perception, and control
+- **💬 LLM Deployment** - Large Language Model implementation and optimization
+- **⚙️ Hardware Verification** - Ensuring correctness and reliability of hardware systems
 
-**上海交通大学** - 计算机科学与技术 (2020 - 2024)
-- GPA: 3.8/4.0 (排名前10%)
-- 主修课程: 数据结构、算法设计、软件工程、数据库系统
-- 获得多次学业优秀奖学金
+### 🎓 Academic Background
 
-**交换生项目** - 新加坡国立大学 (2022 - 2023)
-- 交换期间成绩优异，获得NUS交换生奖学金
-- 参与多个国际合作项目
+**Fudan University** - Computer Science (2020 - Present)
+- Focus: Artificial Intelligence, Machine Learning, Computer Vision
+- Research: Embodied Intelligence, GPU Computing
+- GPA: Top 10% of class
 
-### 💼 技术栈
+### 💼 Professional Profile
 
-**前端**: JavaScript/TypeScript, React, Vue.js, Next.js, HTML5, CSS3, TailwindCSS, Bootstrap
+With a strong background in **AI research and development**, I have experience in:
 
-**后端**: Node.js, Python, Java, Spring Boot, Django, Express.js
+- Developing cutting-edge machine learning algorithms
+- Implementing computer vision solutions for real-world problems
+- Optimizing GPU-accelerated applications for maximum performance
+- Designing and deploying large language models
+- Building intelligent robotic systems
+- Creating performance analysis tools for HPC environments
 
-**数据库**: MySQL, PostgreSQL, MongoDB, Redis
+### 🔧 Technical Skills
 
-**工具**: Docker, Kubernetes, Git, Webpack, Vite, Jest, Cypress
+**Programming Languages:**
+- Python (Expert) - PyTorch, TensorFlow, NumPy, OpenCV
+- C++ (Advanced) - CUDA, OpenMP, High-performance computing
+- Java, JavaScript, C
 
-**设计**: Figma, Adobe XD, Photoshop
+**AI/ML Frameworks:**
+- PyTorch, TensorFlow, Keras
+- OpenCV, scikit-learn, pandas
+- Hugging Face Transformers
 
-### 🎯 个人理念
+**Development Tools:**
+- Git, Docker, Linux
+- CUDA, cuDNN, NVIDIA GPU tools
+- Performance profiling and optimization tools
 
-> "代码不仅仅是实现功能，更是艺术的表达。每一个优秀的项目都应该兼具实用性和美感。"
+**Research Areas:**
+- Machine Learning
+- Computer Vision
+- Natural Language Processing
+- Reinforcement Learning
+- Robotics and Autonomous Systems
 
-我追求代码的简洁性、可维护性和高性能。相信通过不断学习和实践，可以创造出改变世界的产品。
+### 🌟 Philosophy
 
-### 🌟 特长
+> "Intelligence is not just about processing information, but about understanding and interacting with the world. The future of AI lies in embodied systems that can perceive, reason, and act in the physical world."
 
-- ✅ 5年+ 编程经验
-- ✅ 精通现代Web开发
-- ✅ 熟悉云服务部署 (AWS, GCP)
-- ✅ 具有良好的团队协作能力
-- ✅ 英语流利 (CET-6 550+)
+I believe in **interdisciplinary research** that combines computer science, mathematics, and domain-specific knowledge to create truly intelligent systems. My work focuses on bridging the gap between theoretical AI research and practical, real-world applications.
+
+### 📊 Statistics
+
+- **Public Repositories:** 6 on GitHub
+- **Followers:** 5 on GitHub
+- **Research Papers:** Multiple publications in AI and CV
+- **Projects:** Various open-source and research projects
+
+---
+
+> **💬 Let's Connect!**
+> 
+> I'm always open to **collaborations, research discussions, and new opportunities**. 
+> Feel free to reach out via [email](mailto:vincentlu@fudan.edu.cn) or connect with me on [GitHub](https://github.com/Vincentlu1412).

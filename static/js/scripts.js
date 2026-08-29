@@ -1,6 +1,6 @@
 const content_dir = 'contents/';
 const config_file = 'config.yml';
-const section_names = ['home', 'awards', 'experience', 'publications'];
+const section_names = ['home', 'research', 'awards', 'experience', 'publications'];
 
 // Initialize when DOM is loaded
 window.addEventListener('DOMContentLoaded', event => {
@@ -156,6 +156,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Console welcome message
-console.log('%c🎉 欢迎访问 Vincent Lu 的个人主页！', 'font-size: 20px; color: #667eea; font-weight: bold;');
-console.log('%c💻 如果您对我的工作感兴趣，可以联系我：vincentlu1412@gmail.com', 'font-size: 14px; color: #764ba2;');
-console.log('%c🌐 更多信息：https://github.com/Vincentlu1412', 'font-size: 14px; color: #4ade80;');
+console.log('%c🎉 Welcome to Vincent Lu\'s AI Research Page!', 'font-size: 20px; color: #3b82f6; font-weight: bold;');
+console.log('%c🔬 AI Research & Developer | Fudan University', 'font-size: 14px; color: #8b5cf6;');
+console.log('%c🌐 More info: https://github.com/Vincentlu1412', 'font-size: 14px; color: #10b981;');
