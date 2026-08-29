@@ -1,37 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="yixin0313" />
-    <title id="title"></title>
+    <meta name="description" content="Vincent Lu - 个人主页 | 程序员 | 设计师" />
+    <meta name="author" content="Vincent Lu" />
+    <meta name="keywords" content="Vincent Lu, 个人主页, 前端开发, 程序员, GitHub" />
+    <title>Vincent Lu | 个人主页</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
     <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" />
 
-    <!-- Core theme CSS (includes Bootstrap)-->
+    <!-- Core theme CSS-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
 
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
-    <!-- For Compatability -->
+    <!-- For Compatibility -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
     <!-- Markdown -->
@@ -39,37 +35,16 @@
 
     <!-- Mathematics -->
     <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: false,
+                processEnvironments: true,
+                processRefs: true
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script"
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -77,116 +52,573 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <style>
+        /* Custom loading animation */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+            transition: opacity 0.5s ease;
+        }
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        /* Smooth scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+    </style>
 </head>
 
 <body id="page-top">
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader"></div>
+    </div>
+
     <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+    <nav class="header navbar navbar-expand-lg navbar-dark fixed-top shadow-lg" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
+            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">
+                <span class="text-gradient">Vincent Lu</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
+                        <a class="nav-link me-lg-3" href="#home"><i class="bi bi-house-fill me-1"></i> 首页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#about"><i class="bi bi-person-fill me-1"></i> 关于</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
+                        <a class="nav-link me-lg-3" href="#experience"><i class="bi bi-briefcase-fill me-1"></i> 经历</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#skills"><i class="bi bi-stars me-1"></i> 技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#awards"><i class="bi bi-award-fill me-1"></i> 获奖</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#contact"><i class="bi bi-envelope-fill me-1"></i> 联系</a>
                     </li>
                 </ul>
+                <div class="d-flex">
+                    <a href="https://github.com/Vincentlu1412" class="btn btn-outline-light btn-sm me-2" target="_blank">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+    <!-- Hero Section with Particles -->
+    <section class="hero-section position-relative overflow-hidden" id="hero">
+        <div id="particles-js" class="particles-container"></div>
+        <div class="hero-content text-center text-white position-relative z-index-3">
+            <div class="container px-5 py-5">
+                <div class="mb-4" data-aos="fade-down" data-aos-delay="100">
+                    <span class="badge bg-white bg-opacity-20 text-white px-4 py-2 rounded-pill mb-4">
+                        <i class="bi bi-code-slash me-2"></i> Full Stack Developer
+                    </span>
+                </div>
+                <h1 class="display-3 fw-bold mb-4" data-aos="fade-down" data-aos-delay="200">
+                    Vincent Lu
+                </h1>
+                <div class="typing-container mb-4" data-aos="fade-down" data-aos-delay="300">
+                    <span class="text-gradient" id="typed-text"></span>
+                </div>
+                <p class="lead mb-5 opacity-90" data-aos="fade-down" data-aos-delay="400">
+                    热衷于创造优雅的代码和出色的用户体验
+                </p>
+                <div class="d-flex justify-content-center gap-3 mb-5" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#contact" class="btn btn-light btn-lg px-4 py-3 rounded-pill shadow-lg">
+                        <i class="bi bi-chat-dots-fill me-2"></i> 联系我
+                    </a>
+                    <a href="https://github.com/Vincentlu1412" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill" target="_blank">
+                        <i class="bi bi-github me-2"></i> 查看作品
+                    </a>
+                </div>
+                <div class="social-links justify-content-center" data-aos="fade-up" data-aos-delay="600">
+                    <a href="https://github.com/Vincentlu1412" class="social-link text-white me-3" target="_blank">
+                        <i class="bi bi-github fs-4"></i>
+                        <span class="visually-hidden">GitHub</span>
+                    </a>
+                    <a href="mailto:vincentlu1412@gmail.com" class="social-link text-white me-3" target="_blank">
+                        <i class="bi bi-envelope fs-4"></i>
+                        <span class="visually-hidden">Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social-link text-white me-3" target="_blank">
+                        <i class="bi bi-linkedin fs-4"></i>
+                        <span class="visually-hidden">LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x pb-5" data-aos="fade-up" data-aos-delay="800">
+            <a href="#home" class="text-white text-decoration-none">
+                <span class="scroll-text">向下滚动</span>
+                <i class="bi bi-chevron-down animate-bounce"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Home/About Section -->
+    <section class="bg-white py-5" id="home">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 id="home-subtitle" class="text-gradient mb-3"></h2>
+                <div class="section-divider mx-auto"></div>
+            </header>
+            <div class="row align-items-center">
+                <div class="col-lg-8" data-aos="fade-right" data-aos-delay="100">
+                    <div class="main-body" id="home-md"></div>
+                </div>
+                <div class="col-lg-4 text-center" data-aos="fade-left" data-aos-delay="200">
+                    <div id="avatar" class="mb-4">
+                        <img class="img-fluid rounded-circle shadow-lg" src="static/assets/img/photo.png" alt="Vincent Lu">
+                    </div>
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body">
+                            <h4 class="card-title text-gradient mb-4">个人信息</h4>
+                            <div class="d-grid gap-3">
+                                <div class="info-item">
+                                    <i class="bi bi-geo-alt-fill text-primary me-3"></i>
+                                    <span id="location">中国 · 上海</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="bi bi-calendar-fill text-primary me-3"></i>
+                                    <span id="birthday">1998年12月</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="bi bi-code-slash text-primary me-3"></i>
+                                    <span id="specialty">全栈开发</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Top Section -->
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
+    <!-- About Section -->
+    <section class="bg-light py-5" id="about">
         <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 class="text-gradient mb-3"><i class="bi bi-person-fill me-2"></i> 关于我</h2>
+                <div class="section-divider mx-auto"></div>
             </header>
-            <div class="main-body" id="home-md"></div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-heart-fill text-danger fs-1"></i>
+                            </div>
+                            <h4 class="card-title mb-3">热情</h4>
+                            <p class="card-text text-muted">
+                                我热爱编程和设计，享受解决问题的过程。每一个项目都是我的热情结晶。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-lightbulb-fill text-warning fs-1"></i>
+                            </div>
+                            <h4 class="card-title mb-3">创新</h4>
+                            <p class="card-text text-muted">
+                                我追求创新的解决方案，不断学习新技术，保持对前沿技术的敏感度。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-rocket-fill text-success fs-1"></i>
+                            </div>
+                            <h4 class="card-title mb-3">追求卓越</h4>
+                            <p class="card-text text-muted">
+                                我对代码质量和用户体验有很高的要求，追求每一个细节的完美。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Home -->
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <!-- Experience Section -->
+    <section class="bg-white py-5" id="experience">
         <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
-
-    <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 id="experience-subtitle" class="text-gradient mb-3"></h2>
+                <div class="section-divider mx-auto"></div>
             </header>
             <div class="main-body" id="experience-md"></div>
         </div>
     </section>
-    <!-- Experience -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <!-- Skills Section -->
+    <section class="bg-light py-5" id="skills">
         <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 class="text-gradient mb-3"><i class="bi bi-stars me-2"></i> 技能</h2>
+                <div class="section-divider mx-auto"></div>
             </header>
-            <div class="main-body" id="publications-md"></div>
-
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <h4 class="mb-4 text-gradient">编程语言</h4>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>JavaScript/TypeScript</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Java</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <h4 class="mb-4 text-gradient">框架与工具</h4>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>React/Vue</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Node.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Docker/Kubernetes</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" style="height: 8px; border-radius: 10px;">
+                            <div class="progress-bar bg-gradient-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Publications  -->
+
+    <!-- Awards Section -->
+    <section class="bg-white py-5" id="awards">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 id="awards-subtitle" class="text-gradient mb-3"></h2>
+                <div class="section-divider mx-auto"></div>
+            </header>
+            <div class="main-body" id="awards-md"></div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="bg-light py-5" id="publications">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 id="publications-subtitle" class="text-gradient mb-3"></h2>
+                <div class="section-divider mx-auto"></div>
+            </header>
+            <div class="main-body" id="publications-md"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-gradient-contact py-5" id="contact">
+        <div class="container px-5">
+            <header class="text-center mb-5" data-aos="fade-down">
+                <h2 class="text-white mb-3"><i class="bi bi-envelope-fill me-2"></i> 联系我</h2>
+                <div class="section-divider bg-white mx-auto"></div>
+            </header>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <form id="contactForm" class="needs-validation" novalidate>
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">姓名</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                        <div class="invalid-feedback">请输入您的姓名</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">邮箱</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                        <div class="invalid-feedback">请输入有效的邮箱地址</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">主题</label>
+                                        <input type="text" class="form-control" id="subject" required>
+                                        <div class="invalid-feedback">请输入邮件主题</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">消息</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">请输入您的消息</div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-gradient btn-lg px-5 py-3 rounded-pill">
+                                            <i class="bi bi-send-fill me-2"></i> 发送消息
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
+    <footer class="bg-dark text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link"
-                    href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <div id="copyright-text" class="mb-3"></div>
+                <div class="social-links justify-content-center mb-3">
+                    <a href="https://github.com/Vincentlu1412" class="social-link text-white-50 me-3" target="_blank">
+                        <i class="bi bi-github fs-5"></i>
+                    </a>
+                    <a href="mailto:vincentlu1412@gmail.com" class="social-link text-white-50 me-3" target="_blank">
+                        <i class="bi bi-envelope fs-5"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social-link text-white-50 me-3" target="_blank">
+                        <i class="bi bi-linkedin fs-5"></i>
+                    </a>
+                </div>
+                <div class="mb-2">
+                    <a id="github-link" href="https://github.com/Vincentlu1412" class="text-white-50 me-3">GitHub</a>
+                    <span class="mx-1">·</span>
+                    <a id="license-link" href="https://github.com/Vincentlu1412/Vincentlu1412.github.io/blob/main/LICENSE" class="text-white-50 me-3">License</a>
+                    <span class="mx-1">·</span>
+                    <span>Powered by GitHub Pages</span>
+                </div>
             </div>
         </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-gradient btn-sm rounded-circle shadow-lg position-fixed bottom-0 end-0 m-4" style="display: none; z-index: 1000;">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out-sine',
+            once: true,
+            mirror: false
+        });
+
+        // Hide loading overlay when page is loaded
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').classList.add('hidden');
+            }, 500);
+        });
+
+        // Typing animation
+        document.addEventListener('DOMContentLoaded', function() {
+            var typed = new Typed('#typed-text', {
+                strings: ['Full Stack Developer', '前端工程师', '后端工程师', 'UI/UX 设计师'],
+                typeSpeed: 80,
+                backSpeed: 40,
+                loop: true,
+                smartBackspace: true
+            });
+        });
+
+        // Particles.js configuration
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#000000"
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    }
+                }
+            }
+        });
+
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Form validation
+        (function () {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

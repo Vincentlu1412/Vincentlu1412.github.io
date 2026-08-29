@@ -1,21 +1,77 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+## 💼 工作经历
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+### **高级前端工程师**
+**字节跳动 | 2024年6月 - 至今**
 
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+作为抖音电商团队的高级前端工程师，负责大型商城前端系统的架构设计和性能优化。
+
+#### 🎯 主要职责
+- 领导前端团队开发抖音商城的核心功能模块
+- 设计并实现高性能的React组件库，提升开发效率
+- 优化前端性能，将页面加载时间减少40%
+- 与后端团队紧密合作，设计API接口规范
+- 实施微前端架构，支持多业务线并行开发
+
+#### 🏆 关键成就
+- 开发了抖音商城的实时搜索建议功能，用户满意度提升25%
+- 实现了商品详情页的3D展示功能，转化率提升15%
+- 构建了前端监控体系，实时追踪用户行为和错误日志
 
 ---
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### **前端开发工程师**
+**阿里巴巴 | 2022年7月 - 2024年5月**
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+在淘宝技术部担任前端开发工程师，参与多个重大项目的开发。
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+#### 🎯 主要职责
+- 开发淘宝搜索结果页的前端界面
+- 优化移动端用户体验，提升页面交互流畅度
+- 参与淘宝直播前端系统的重构工作
+- 实现数据可视化大屏，展示业务关键指标
+
+#### 🏆 关键成就
+- 重构了淘宝搜索结果页，提升页面加载速度35%
+- 开发了实时价格监控系统，帮助用户追踪商品价格变化
+- 优化了直播间互动功能，用户留存率提升20%
+
+---
+
+### **软件工程师实习生**
+**腾讯 | 2021年6月 - 2022年6月**
+
+在腾讯云部门担任软件工程师实习生，参与云服务产品的开发。
+
+#### 🎯 主要职责
+- 开发云服务管理控制台的前端界面
+- 实现数据分析和可视化功能
+- 参与API设计和后端服务开发
+- 编写单元测试和集成测试
+
+#### 🏆 关键成就
+- 开发了云存储管理界面，获得部门优秀实习生称号
+- 优化了数据查询性能，响应时间减少50%
+- 参与了多个开源项目的贡献
+
+---
+
+### **自由职业开发者**
+**2019年 - 2021年**
+
+在校期间兼职从事自由职业开发，为多家初创公司提供技术支持。
+
+#### 🎯 主要项目
+- 开发了电商平台的完整前后端系统
+- 为教育公司构建了在线学习平台
+- 为餐饮连锁店开发了点餐管理系统
+- 为多个客户提供了定制化的Web解决方案
+
+#### 🏆 关键成就
+- 积累了丰富的全栈开发经验
+- 学会了与客户沟通和需求分析
+- 培养了独立解决问题的能力
+- 为后续的职业发展奠定了坚实基础
+
+---
+
+> **💡 总结**: 多年的开发经验让我具备了全面的技术能力和丰富的项目经验。我热爱编程，享受解决问题的过程，期待在未来的工作中继续成长和贡献。

@@ -1,5 +1,8 @@
-title: Yourname's Homepage
-page-top-title: Yourname
-top-section-bg-text: Be what you wanna be
-home-subtitle: Yourname&ensp;|&ensp;上杉绘梨衣
-copyright-text: '&copy; Yourname 2023-2025. All Rights Reserved.'
+title: Vincent Lu | 个人主页
+top-section-bg-text: 创造 · 设计 · 实现
+page-top-title: Vincent Lu
+copyright-text: '&copy; Vincent Lu 2025. 保留所有权利。'
+home-subtitle: Vincent Lu | 全栈开发工程师
+experience-subtitle: '<i class="bi bi-briefcase-fill me-2"></i> 工作经历'
+awards-subtitle: '<i class="bi bi-award-fill me-2"></i> 获奖经历'
+publications-subtitle: '<i class="bi bi-file-text-fill me-2"></i> 论文发表'
